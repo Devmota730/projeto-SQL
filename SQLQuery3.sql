@@ -8,6 +8,6 @@ exec sp_columns alunos
 select * 
 	from cursos;
 
-select * 
+select a.nome
 	from cursos c
 	inner join alunos a on a.id_aluno = c.id_cursos
